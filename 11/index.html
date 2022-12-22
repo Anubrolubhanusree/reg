@@ -1,0 +1,65 @@
+<!-- Experiment-11 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+        #subhead {
+            font-weight: bold;
+        }
+
+        #address {
+            width: 150px;
+            height: 100px;
+        }
+
+        body {
+            background-color: azure;
+        }
+    </style>
+    <script src="javascript2.js"></script>
+</head>
+
+<body>
+    <form action="newpage.html" onsubmit="return validation()">
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="passcode">Password</label>
+        <input type="password" id="passcode">
+        <br><br>
+        <label for="mailid">E-mail id</label>
+        <input type="email" name="maildid" id="mailid">
+        <br><br>
+        <label for="mobile">Phone number</label>
+        <input type="text" id="mobile">
+        <br><br>
+        <span id="subhead">Gender:</span>
+        <br>
+        <input type="radio" name="gender" id="genderm">
+        <label for="genderm">Male</label><br>
+        <input type="radio" name="gender" id="genderf">
+        <label for="genderf">Female</label>
+        <br><br>
+        <span id="subhead">Languages known:</span><br>
+        <input type="checkbox" name="language" id="lang">
+        <label for="lange">English</label><br>
+        <input type="checkbox" name="language" id="lang">
+        <label for="langt">Telugu</label><br>
+        <input type="checkbox" name="language" id="lang">
+        <label for="langh">Hindi</label><br>
+        <input type="checkbox" name="language" id="langt">
+        <label for="langta">Tamil</label><br><br>
+        <label for="address" id="subhead">Address:</label><br>
+        <input type="t" name="address" id="address">
+        <br><br>
+        <input type="submit" value="SUBMIT">
+    </form>
+    <label for="address">address</label>
+    <input type="address"name="address"id="address">
+</body>
+</html>
